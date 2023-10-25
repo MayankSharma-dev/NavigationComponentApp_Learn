@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeScreen"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/detailScreen"
+        android:title="Detail"
+        android:icon="@drawable/ic_details"/>
+
+</menu>
+
+<!--order to connect Home & Detail Fragments to NavGraph and
+    bottom navigationView, Fragments id and Bottom-
+    -Navigation menuItems id should be same -->
